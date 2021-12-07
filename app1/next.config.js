@@ -19,13 +19,13 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./mario": "./components/mario",
+        "./component1": "./components/component1",
       },
     };
     config.cache = false;
     withModuleFederation(config, options, mfConf);
     if (!isServer) {
-      config.output.publicPath = "https://mf-app1.vercel.app/_next/";
+      config.output.publicPath = "http://localhost:3001/_next/";
     }
 
     return config;

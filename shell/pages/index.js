@@ -7,12 +7,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Microfrontends Demo</title>
-        <meta name="description" content="Demo for Microfrontends using Module Federation" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        Hello! This content is hosted locally.
+      <main>
+        Hello, world! This is microfrontend shellApp!
       </main>
     </div>
   )

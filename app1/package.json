@@ -16,5 +16,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "webpack": "5.38.1"
+  },
+  "devDependencies": {
+    "app1": "^1.0.0"
   }
 }
